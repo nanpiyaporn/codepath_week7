@@ -30,9 +30,9 @@ Here's a walkthrough of implemented user stories:
 I was ok throw the Lab project, then I tried to adapt the lab to my project. It kept me in error. 
 To be able to submit this project I have to compile Lab with my stock market. Therefore, no zero score.
 
-I will have time after the final exam I will comeback to fix my stock part.
+I will have time after the final exam I will come back to fix my stock part.
 
-[stockandcrypto app](https://github.com/nanpiyaporn/stockgrap/blob/master/stock/src/assets/img/finalapp.gif)
+![stockandcrypto app](https://github.com/nanpiyaporn/stockgrap/blob/master/stock/src/assets/img/finalapp.gif)
 
 ## Notes
 
