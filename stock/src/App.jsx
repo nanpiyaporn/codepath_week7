@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import CoinInfo from './Components/CoinInfo';
-//import StockDetail from './Components/StockDetail';
+import Stock from './Components/Stock';
 
 import './App.css';
 
@@ -47,7 +47,10 @@ const searchItems = searchValue => {
   return (
     <div className="whole-page">
       <h1>My Stock and Crypto List</h1>
+      <br/>
+      <Stock/>
     
+      <h2>Crypto List</h2>
       <input
        type="text"
        placeholder="Search..."

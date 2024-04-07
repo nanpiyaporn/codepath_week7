@@ -1,12 +1,12 @@
-//import StockDetail from "../src/Components/StockDetail";
+import Stock from "../src/Components/Stock";
 
-const DetailView = () => {
+const StockDetailView = () => {
   return (
     <div>
       
-      <StockDetail />
+      <Stock />
     </div>
   );
 };
 
-export default DetailView;
+export default StockDetailView;
