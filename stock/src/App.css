@@ -1,0 +1,41 @@
+body{
+  /*background-color: black;*/
+  justify-content: center;
+  justify-items: center;
+}
+
+.icons{
+  color: rgb(49, 47, 47);
+  padding-right: 10px;
+  width: 30px;
+  height: 30px;
+}
+ul{
+  list-style-type: none;
+  margin: 25px 50px 75px 30px;
+}
+li.main-list{
+  padding: 25px;
+  border-bottom: solid 3px rgb(54, 51, 51);
+  font-size: larger;
+}
+.whole-page{
+  padding: 50px;
+  text-align: center;
+  /*background: black;*/
+  /*color:white;*/
+
+}
+
+nav {
+  position: fixed; 
+  top: 0; 
+  right: 0; 
+}
+
+.home-link 
+{
+  border:1px dotted rgb(216, 209, 209);
+  /*background:#1d1f1d;*/
+  width:75px;
+}
