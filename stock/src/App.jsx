@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import  { useEffect, useState } from 'react';
 import CoinInfo from './Components/CoinInfo';
 import Stock from './Components/Stock';
 
@@ -67,21 +67,23 @@ const searchItems = searchValue => {
           ? filteredResults.map((coin) => 
             list.Data[coin].PlatformType === "blockchain" ? 
           <CoinInfo
-          image={list.Data[coin].ImageUrl}
-          name={list.Data[coin].FullName}
-          symbol={list.Data[coin].Symbol}
-           />
+            key={coin} // Add key prop
+            image={list.Data[coin].ImageUrl}
+            name={list.Data[coin].FullName}
+            symbol={list.Data[coin].Symbol}
+          />
           : null
           )
         : list && Object.entries(list.Data).map (([coin]) => 
           list.Data[coin].PlatformType === "blockchain" ? 
           <CoinInfo
+            key={coin} // Add key prop
             image={list.Data[coin].ImageUrl}
             name={list.Data[coin].FullName}
             symbol={list.Data[coin].Symbol}
           />
-      : null
-      )}
+        : null
+        )}
       </ul>
     </div>
   );

@@ -36,7 +36,7 @@ const CoinInfo = ({ image, name, symbol }) => {
         alt={`Small icon for ${name} crypto coin`}
       />
          <Link
-  style={{ color: "White" }}
+  style={{ color: "Black" }}
   to={`/coinDetails/${symbol}`}
   key={symbol}
 >

@@ -1,4 +1,4 @@
-import React, { Component,useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import CoinChart from "./CoinChart";
 //import './CoinDetail.css';
